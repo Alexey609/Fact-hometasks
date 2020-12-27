@@ -9,72 +9,59 @@
 </head>
 <body>
 
-
 <?php
-//$i = 5;
-//while ($i <= 13) {
-//    echo $i++;
-//}
-//
-//$num = 1000;
-//$iter = 0;
-//while ($num >= 50) {
-//    $num /= 2;
-//    $iter++;
-//}
-//echo "Результат: {$num}<br>\n";
-//echo "Количество итераций: {$iter}<br>\n";
-//
-//$i = 1;
-//switch ($i) {
-//    case 0:
-//        echo '0,1,2,3,4,5,6,7,8,9,10';
-//    case 1:
-//        echo '0,1,2,3,4,5,6,7,8,9';
-//    case 2:
-//        echo '0,1,2,3,4,5,6,7,8';
-//    default: 'null';
-//    break;
-//}
 
-//$arr = array(
-//        'Rus' => array('Orenburg', 'Chelabinsk', 'Magnitogorsk'),
-//         'Ukr' => array('Kiev', 'Dnepr', 'Odessa'),
-//         'Bel' => array('Minsk', 'Brest')
-//);
-//print_r($arr);
-//$arr = [rand(0,1), rand(0,1), rand(0,1),
-//    rand(0,1),rand(0,1),rand(0,1),rand(0,1),rand(0,1),rand(0,1),rand(0,1)];
-//print_r($arr);
+//$n = 10;
+//$arr = array(1, 2, 3, 4, 5);
+// for ($i = 0; $i < $n; $i++) {
+//      echo '<br>' . $arr[$i];
+// }
 //
-//$arr2 = array(
-//    'Rus' => array('Orenburg', 'Chelabinsk', 'Magnitogorsk'),
-//      'Ukr' => array('Kiev', 'Dnepr', 'Odessa'),
-//      'Bel' => array('Minsk', 'Brest')
-//);
-$n = 10;
-$arr = array(1, 2, 3, 4, 5);
- for ($i = 0; $i < $n; $i++) {
-      echo '<br>' . $arr[$i];
+// $arr2 = array(1, 2, 3, 4, 5, 6);
+//  foreach ($arr2 as $index => $value) {
+//      if ($value % 2 === 0) {
+//          echo '<b>' . '<br>' . $value;
+//      }
+//  }
+
+//  $countries = array(
+//       'Rus' => array('Orenburg', 'Chelabinsk', 'Magnitogorsk'),
+//       'Ukr' => array('Kiev', 'Dnepr', 'Odessa'),
+//       'Bel' => array('Minsk', 'Brest')
+//  );
+//   foreach ($countries as $value) {
+//       foreach ($value as $key) {
+//           if (substr($key, 0, 1) == 'O') {
+//               echo $key;
+//           }
+//       }
+//   }
+
+//1 задача
+$string = 'www.fact.ru';
+ if (mb_strlen($string) > 5) {
+     echo substr($string, 0,5) . '...';
+ }
+ if (mb_strlen($string) < 5) {
+     echo $string;
  }
 
- $arr2 = array(1, 2, 3, 4, 5, 6);
-  foreach ($arr2 as $index => $value) {
-      if ($value % 2 === 0) {
-          echo '<b>' . '<br>' . $value;
-      }
-  }
+// 2 задача
+$str = 'sabaca';
+ echo '<br>' . str_replace(array("a", "b", "c"),
+ array("1", "2", "3"), $str);
 
-  $countries = array(
-       'Rus' => array('Orenburg', 'Chelabinsk', 'Magnitogorsk'),
-       'Ukr' => array('Kiev', 'Dnepr', 'Odessa'),
-       'Bel' => array('Minsk', 'Brest')
-  );
-   foreach ($countries as $value) {
-       if (substr($value, 0, 1) == 'O') {
-           echo $value;
-       }
-   }
+//  3 задача
+$str2 = 'abc abc abc';
+ echo  '<br>' . substr_count($str2, 'b');
+
+// 4 задача
+$str3 = 'html css php';
+$arr_str = explode(" , ", $str3);
+ foreach ($arr_str as $value) {
+     array_fill(0, 10, $value);
+     echo '<br>' . $value;
+ }
 ?>
 </body>
 </html>
