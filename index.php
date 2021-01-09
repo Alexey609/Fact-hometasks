@@ -11,57 +11,50 @@
 
 <?php
 
-//$n = 10;
-//$arr = array(1, 2, 3, 4, 5);
-// for ($i = 0; $i < $n; $i++) {
-//      echo '<br>' . $arr[$i];
-// }
-//
-// $arr2 = array(1, 2, 3, 4, 5, 6);
-//  foreach ($arr2 as $index => $value) {
-//      if ($value % 2 === 0) {
-//          echo '<b>' . '<br>' . $value;
-//      }
-//  }
-
-//  $countries = array(
-//       'Rus' => array('Orenburg', 'Chelabinsk', 'Magnitogorsk'),
-//       'Ukr' => array('Kiev', 'Dnepr', 'Odessa'),
-//       'Bel' => array('Minsk', 'Brest')
-//  );
-//   foreach ($countries as $value) {
-//       foreach ($value as $key) {
-//           if (substr($key, 0, 1) == 'O') {
-//               echo $key;
-//           }
-//       }
-//   }
-
-//1 задача
-$string = 'www.fact.ru';
- if (mb_strlen($string) > 5) {
-     echo substr($string, 0,5) . '...';
+// призентация 9-10 задача 1
+ function arrFunc () {
+   return array(mt_rand(1,2), mt_rand(2,3), mt_rand(3,4));
  }
- if (mb_strlen($string) < 5) {
-     echo $string;
+  print_r(arrFunc());
+
+//задача 2
+ $str = 'HTML CSS PHP BITRIX';
+  function stringCounter ($str) {
+      $result = str_word_count($str);
+      echo '<br>' . $result;
+  }
+  stringCounter($str);
+
+// задача №3
+$str = 'HTML CSS PHP BITRIX';
+ function reverseString ($str) {
+     $result = strrev($str);
+     return $result;
  }
+ $reverse = reverseString($str);
+ echo '<br>' . $reverse;
 
-// 2 задача
-$str = 'sabaca';
- echo '<br>' . str_replace(array("a", "b", "c"),
- array("1", "2", "3"), $str);
-
-//  3 задача
-$str2 = 'abc abc abc';
- echo  '<br>' . substr_count($str2, 'b');
-
-// 4 задача
-$str3 = 'html css php';
-$arr_str = explode(" , ", $str3);
- foreach ($arr_str as $value) {
-     array_fill(0, 10, $value);
-     echo '<br>' . $value;
+// задача №4
+$str = 'HTML CSS PHP BITRIX';
+ function lengthStr ($str) {
+     $length = mb_strlen($str);
+     echo '<br>' . $length;
  }
+lengthStr($str);
+
+//задача №5
+$str = 'HTML CSS PHP BITRIX';
+ function excFunc ($str) {
+     $arrCount = explode(" ", $str);
+     foreach ($arrCount as $value) {
+         echo '<br>' . $value;
+     }
+ }
+ excFunc($str);
+
+ print_r($_POST);
 ?>
 </body>
+
+
 </html>
