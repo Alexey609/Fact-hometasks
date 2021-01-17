@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935ff967-46bd-4bd7-9278-974da541c73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/anketAction.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bitrix.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actionForm.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/actionPass.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form3.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,6 +82,8 @@
       <workItem from="1610545693773" duration="939000" />
       <workItem from="1610558044905" duration="10000" />
       <workItem from="1610629272621" duration="9092000" />
+      <workItem from="1610878464680" duration="611000" />
+      <workItem from="1610895177569" duration="5669000" />
     </task>
     <servers />
   </component>
