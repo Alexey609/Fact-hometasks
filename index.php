@@ -1,15 +1,12 @@
 <?php
-$name = $_POST['name'];
-$password = $_POST['pass'];
-$adminPass = 'qwerty';
-$adminName = 'Tom';
+ $getcol = file_get_contents('style.css');
+ $siporate = str_split($getcol);
 
-if (($password == $adminPass) && ($name == $adminName)) {
-    session_start();
-    $_SESSION['login'] = 'Tom';
-} else {
-    echo 'Error';
-}
+// не понял до конца как задать условие
+
+ if ($siporate > '#') {
+     $_FILES['body'] = 'body';
+ }
 ?>
 <!doctype html>
 <html lang="en">
@@ -21,8 +18,7 @@ if (($password == $adminPass) && ($name == $adminName)) {
     <title>Document</title>
 </head>
 <body>
-  <a href="fact.php">Fact</a>
-  <a href="bitrix.php">Bitrix</a>
+
 
 </body>
 </html>

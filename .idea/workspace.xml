@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935ff967-46bd-4bd7-9278-974da541c73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bitrix.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +18,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,7 +37,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../modules/php/PHP-7.1/php.ini" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -83,7 +82,13 @@
       <workItem from="1610558044905" duration="10000" />
       <workItem from="1610629272621" duration="9092000" />
       <workItem from="1610878464680" duration="611000" />
-      <workItem from="1610895177569" duration="5669000" />
+      <workItem from="1610895177569" duration="6733000" />
+      <workItem from="1610977877734" duration="312000" />
+      <workItem from="1611055962757" duration="185000" />
+      <workItem from="1611057873025" duration="205000" />
+      <workItem from="1611058083909" duration="961000" />
+      <workItem from="1611059144702" duration="13597000" />
+      <workItem from="1611081696207" duration="31000" />
     </task>
     <servers />
   </component>
