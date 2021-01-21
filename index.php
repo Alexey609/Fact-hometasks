@@ -1,30 +1,12 @@
 <?php
- $getcol = file_get_contents('style.css');
- $siporate = str_split($getcol);
+$servername = "localhost";
+$username = "Alexey";
+$password = "pass";
+$database = "name";
 
-// не понял до конца как задать условие
-
- if ($siporate > '#') {
-     $_FILES['body'] = 'body';
- }
-?>
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-
-
-</body>
-</html>
-
-
-
+$db_conn = mysqli_connect($servername, $username, $password, $database) or die("error");
+mysqli_set_charset($db_conn, 'utf-8');
+$sql = mysqli_query($db_conn, "INSERT INTO names VALUES (NULL, 'Bob', 13, 2)");
 
 
 
