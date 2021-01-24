@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935ff967-46bd-4bd7-9278-974da541c73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/getColor.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -93,6 +92,10 @@
       <workItem from="1611151146363" duration="618000" />
       <workItem from="1611237148579" duration="3496000" />
       <workItem from="1611244694878" duration="5424000" />
+      <workItem from="1611323847677" duration="1462000" />
+      <workItem from="1611334499746" duration="36000" />
+      <workItem from="1611428685670" duration="1092000" />
+      <workItem from="1611494221217" duration="9878000" />
     </task>
     <servers />
   </component>
