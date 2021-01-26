@@ -9,16 +9,31 @@ $pass = $_POST['password'];
 $db_conn = mysqli_connect($servername, $username, $password, $database) or die("error");
 mysqli_set_charset($db_conn, 'utf-8');
 $sql = mysqli_query($db_conn, "SELECT login, password_u FROM user");
-$rows = mysqli_fetch_array($sql);
+$row = mysqli_fetch_array($sql, MYSQLI_ASSOC);
 
- while ($row = mysqli_fetch_array($sql)) {
-    if (($row['login'] == $login) && ($row['password_u'] == $pass)) {
-        echo '<a href="">Факт';
+//foreach ($row as $key => $value) {
+//    if (($value['login'] == $login) && ($value['password_u'] == $pass)) {
+//        echo '<a href="">Факт';
+//    } else {
+//        echo 'Error';
+//    }
+//}
+
+// while ($row = mysqli_fetch_array($sql)) {
+//    if (($row['login'] == $login) && ($row['password_u'] == $pass)) {
+//        echo '<a href="">Факт';
+//    }
+//}
+foreach ($row as $key => $value) {
+    if ($value['login'] == $this->login) {
+        $flag_login = true;
+        if ($value['password'] == $this->password_u) {
+            return 0; //успешно
+        } else {
+            return 1; //не сошелся пароль
+        }
     }
 }
-
-// данные из бд приходят, но не обрабатываются
-
 ?>
 <!doctype html>
 <html lang="en">
