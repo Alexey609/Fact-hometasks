@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935ff967-46bd-4bd7-9278-974da541c73d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DogClass.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d_index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authorisation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DogClass.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d_index.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +103,10 @@
       <workItem from="1611578463562" duration="755000" />
       <workItem from="1611582707660" duration="1570000" />
       <workItem from="1611661855487" duration="7034000" />
+      <workItem from="1611749239811" duration="965000" />
+      <workItem from="1611838884370" duration="859000" />
+      <workItem from="1611839846667" duration="1064000" />
+      <workItem from="1611904052646" duration="979000" />
     </task>
     <servers />
   </component>
